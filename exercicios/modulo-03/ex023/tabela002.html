@@ -13,7 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
-            position: relative;
+            position: relative;                     /* obrigatório para fixar o cabeçalho*/
         }
 
         td, th {
@@ -33,7 +33,7 @@
             color: white;
         }
 
-        thead > tr > th {
+        thead > tr > th {                       /* Configurações necessárias para fixar o cabeçalho*/
             position: sticky;
             top: -1px;
             background-color: #383838;
